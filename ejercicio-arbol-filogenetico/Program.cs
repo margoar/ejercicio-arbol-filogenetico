@@ -4,7 +4,7 @@ using ejercicio_arbol_filogenetico.Infrastructure;
 var fileReader = new TreeFileReader();
 var treeService = new TreeService();
 
-var nodes = fileReader.Read("Data/Input.txt");
+var nodes = fileReader.Read("Data/input2.txt");
 
 treeService.BuildTree(nodes);
 
